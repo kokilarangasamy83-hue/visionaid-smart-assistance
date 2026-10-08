@@ -1,0 +1,11 @@
+{
+  "name": "VisionAid – Smart Vision Assistance",
+  "description": "AI-powered accessibility web application for blind and visually impaired users featuring real-time object detection, smart text reader, Indian currency recognition, obstacle alert, and hands-free voice assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

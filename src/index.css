@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* High contrast accessible focus outline across all interactive elements */
+  :focus-visible {
+    outline: 3px solid #00f0ff;
+    outline-offset: 3px;
+  }
+
+  .theme-high-contrast :focus-visible {
+    outline: 3px solid #ffe600 !important;
+    outline-offset: 3px !important;
+  }
+}
